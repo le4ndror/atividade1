@@ -1,0 +1,6 @@
+x1 = float(input(" digite x1: "))
+y1 = float(input(" digite y1: "))
+x2 = float(input(" digite x2: "))
+y2 = float(input(" digite y2: "))
+result = (((x2-x1)**2)+((y2-y1)**2))**(1/2)
+print(f"o valor da distancia de (x1,y1) e (x2,y2) é {result}")
